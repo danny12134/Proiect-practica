@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.auth-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 420px;
+}
+
+.auth-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+    color: #1a1a1a;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.camp {
+    margin-bottom: 1rem;
+}
+
+.camp label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.camp input {
+    width: 100%;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+}
+
+.camp input:focus {
+    outline: none;
+    border-color: #c8963e;
+}
+
+.btn-principal {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #c8963e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.btn-principal:hover {
+    background: #a87a30;
+}
+
+.mesaj {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.mesaj.eroare {
+    background: #fdecea;
+    color: #b91c1c;
+    border: 1px solid #f5c6c6;
+}
+
+.mesaj.succes {
+    background: #ecfdf5;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+}
+
+.link-jos {
+    text-align: center;
+    margin-top: 1.25rem;
+    font-size: 0.88rem;
+    color: #666;
+}
+
+.link-jos a {
+    color: #c8963e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-jos a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+.dashboard-container p {
+    color: #555;
+    margin-bottom: 1.5rem;
+}
