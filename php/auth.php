@@ -34,7 +34,7 @@ function register($nume, $email, $parola) {
 
     foreach ($users as $user) {
         if ($user['email'] === $email) {
-            return false; // email deja existent
+            return false; 
         }
     }
 
