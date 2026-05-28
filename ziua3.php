@@ -1,4 +1,8 @@
 <?php
+// ================================================
+// Ziua 3 – Flow control: if si for
+// Verifica daca numerele dintr-un array sunt pare sau impare
+// ================================================
 
 $numere = [4, 7, 12, 3, 18, 5, 22, 9, 16, 11];
 
@@ -55,11 +59,13 @@ for ($i = 0; $i < count($numere); $i++) {
         Exercițiu PHP: instrucțiuni <strong>if</strong> și <strong>for</strong> — numere pare și impare
     </p>
 
+    <!-- ARRAY-UL -->
     <h2>&#128290; Array-ul de numere</h2>
     <div style="background:#f9f9f9; border-radius:6px; padding:0.75rem 1rem; font-family:'Courier New'; font-size:0.95rem; color:#333;">
         [ <?= implode(', ', $numere) ?> ]
     </div>
 
+    <!-- TABEL REZULTATE -->
     <h2>&#128202; Rezultate verificare</h2>
     <table class="tabel">
         <thead>
@@ -84,6 +90,7 @@ for ($i = 0; $i < count($numere); $i++) {
         </tbody>
     </table>
 
+    <!-- SUMAR FINAL -->
     <h2>&#9989; Sumar final</h2>
     <div class="sumar">
         <div class="sumar-box verde">
@@ -96,9 +103,10 @@ for ($i = 0; $i < count($numere); $i++) {
         </div>
     </div>
 
+    <!-- CODUL SURSA -->
     <h2>&#128187; Codul sursă PHP</h2>
     <div class="cod-box">
-        <span class="cmt">Array cu 10 numere</span><br>
+        <span class="cmt">// Array cu 10 numere</span><br>
         <span class="kw">$numere</span> = [4, 7, 12, 3, 18, 5, 22, 9, 16, 11];<br><br>
         <span class="kw">$pare</span> = 0; &nbsp;<span class="kw">$impare</span> = 0;<br><br>
         <span class="kw">for</span> ($i = 0; $i &lt; count($numere); $i++) {<br>
@@ -108,7 +116,7 @@ for ($i = 0; $i < count($numere); $i++) {
         &nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">$impare</span>++;<br>
         &nbsp;&nbsp;}<br>
         }<br><br>
-        <span class="cmt">Rezultat:</span><br>
+        <span class="cmt">// Rezultat:</span><br>
         <span class="str">Pare: <?= $pare ?> &nbsp;| &nbsp;Impare: <?= $impare ?></span>
     </div>
 
@@ -116,6 +124,7 @@ for ($i = 0; $i < count($numere); $i++) {
 </div>
 
 <script>
+    // Afisare rezultate si in consola
     const numere = [<?= implode(', ', $numere) ?>];
     let pare = 0, impare = 0;
     console.log("=== Ziua 3 – Numere pare si impare ===");

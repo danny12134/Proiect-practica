@@ -1,6 +1,10 @@
 <?php
+// ================================================
+// Ziua 2 – Exercitiu PHP: mesaj in consola si web
+// Tema: Website Editare Video & Nunti
+// ================================================
 
-$mesaj = "Buna!. Acesta este primul script PHP al proiectului VideoWedding.";
+$mesaj = "Buna ziua! Acesta este primul script PHP al proiectului VideoWedding.";
 $tehnologii = ["PHP", "HTML", "CSS", "JavaScript", "JSON"];
 $pagini = ["index.php", "login.php", "register.php", "dashboard.php", "contact.php"];
 $data_azi = date("d.m.Y");
@@ -39,11 +43,13 @@ function salut($nume) {
     <h1>&#127916; VideoWedding – Ziua 2</h1>
     <p style="color:#888; font-size:0.9rem; margin-bottom:0.5rem;">Exercițiu PHP: afișare mesaj în consolă și în aplicația web</p>
 
+    <!-- MESAJ VIZIBIL PE SITE -->
     <h2>&#128172; Mesaj afișat pe site</h2>
     <div class="mesaj-box">
         <?= htmlspecialchars($mesaj) ?>
     </div>
 
+    <!-- SIMULARE CONSOLA -->
     <h2>&#128187; Mesaj afișat în consolă (simulare)</h2>
     <div class="consolа-box">
         <span>&gt;</span> console.log("=== VideoWedding – Ziua 2 ===")<br>
@@ -78,6 +84,7 @@ function salut($nume) {
 </div>
 
 <script>
+    // Mesaj real in consola browser (F12 → Console)
     console.log("=== VideoWedding – Ziua 2 ===");
     console.log("<?= addslashes($mesaj) ?>");
     console.log("Tehnologii: <?= implode(', ', $tehnologii) ?>");
