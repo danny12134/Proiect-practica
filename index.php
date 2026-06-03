@@ -113,7 +113,6 @@ $autentificat = esteAutentificat();
     </div>
 </section>
 
-<!-- ══ GALERIE ══ -->
 <section class="galerie" id="galerie">
     <div class="text-center">
         <h2 class="sectiune-titlu">Galerie</h2>

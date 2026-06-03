@@ -1,10 +1,18 @@
 [
-  {
-    "id": 1,
-    "nume": "Admin",
-    "email": "admin@videowedding.md",
-    "parola": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
-    "rol": "admin",
-    "data_inregistrare": "2024-01-01"
-  }
+    {
+        "id": 1,
+        "nume": "Admin",
+        "email": "admin@videowedding.md",
+        "parola": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+        "rol": "admin",
+        "data_inregistrare": "2024-01-01"
+    },
+    {
+        "id": 2,
+        "nume": "admin",
+        "email": "admin@gmail.com",
+        "parola": "6679ee086017bac33cea7b97469261d3a7c242de56601014a2e04351c4b686d7",
+        "rol": "client",
+        "data_inregistrare": "2026-06-03"
+    }
 ]
