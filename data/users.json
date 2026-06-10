@@ -14,5 +14,29 @@
         "parola": "6679ee086017bac33cea7b97469261d3a7c242de56601014a2e04351c4b686d7",
         "rol": "client",
         "data_inregistrare": "2026-06-03"
+    },
+    {
+        "id": 3,
+        "nume": "apathy xii",
+        "email": "whdapthy@gmail.com",
+        "parola": "cd1f47646a8991671e7f7f399e48658b92d8fd4ec7c927ce5d8d35445e0fb19b",
+        "rol": "client",
+        "data_inregistrare": "2026-06-09"
+    },
+    {
+        "id": 4,
+        "nume": "apathy xii",
+        "email": "monn41549@gmail.com",
+        "parola": "f4a74e1e9faa8a2dd53d3fce3a94c8ceef4389e93f72349b41c3061a3c773e8b",
+        "rol": "client",
+        "data_inregistrare": "2026-06-09"
+    },
+    {
+        "id": 5,
+        "nume": "Danu Ch",
+        "email": "danielchiriac977@gmail.com",
+        "parola": "b663c7752e144ff2cbe00cc3b31ef9dda50de1b585fd45213f1d3a360bd7356d",
+        "rol": "client",
+        "data_inregistrare": "2026-06-09"
     }
 ]
